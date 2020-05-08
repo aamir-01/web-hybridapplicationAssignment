@@ -1,0 +1,389 @@
+.container{
+    background-color: #3D77CB ;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    
+}
+
+.icon{
+    height: 15px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.bg:hover{
+background-color: #1E60BF;
+padding: 5px;
+border-radius: 5px;
+}
+
+#txt{
+    position: relative;
+    top: -15px;
+    text-align: center;
+}
+#headbtn1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+#headbtn2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+#headbtn3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: forestgreen;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.7;
+    border: 1px solid burlywood;
+}
+
+/*----------------------Menus-------------------------*/
+#fixmenu{
+    padding: 10;
+}
+ul{
+    background-color: #F7F8FA;
+}
+
+li{
+    display: inline;
+    font-size: 13pt;
+    margin: 0px 4px;
+}
+
+#logo{
+    height: 70px;
+    margin: 10px 50px 10px 15px;
+}
+.menu{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(27, 26, 26);
+
+}
+ a:hover {
+    border: 1px solid #3D77CB ;
+    background-color: #3D77CB;
+    border-radius: 20px;
+    color: white !important;
+    padding: 8px;
+    text-decoration: none !important;
+    
+}
+#home{
+    border: 1px solid #3D77CB ;
+    background-color: #3D77CB;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+
+}
+
+/*----------------------Marquee-------------------------*/
+
+#marque{
+    background-color: #3D77CB;
+    margin: 5px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.green{
+    color: #00FF00;
+}
+.white{
+    color: white;
+
+}
+.blue{
+    color: blue;
+}
+
+/*----------------------INTRODUCTION-------------------------*/
+
+
+#intro{
+    color: #316DC3;
+}
+
+#duction{
+    color: #427900;
+}
+.introduction{
+    position: relative;    
+    top: 45px;
+    left: 360px;
+    font-size: 29pt;
+    font-weight: bold;
+}
+#introduce{
+    background-color:whitesmoke ;
+    height: 50pc;
+    
+}
+hr{
+    width: 5%;
+    height: 1.5px;
+    margin: 10px;
+    background-color: #427900;
+    display: inline-block;
+    
+}
+#intro_center{
+    text-align: center;
+    line-height: 12em;
+    position: relative;
+    left: 20px;
+
+}
+
+p{
+    text-align: justify;
+    padding-left: 120px;
+    padding-right: 110px;
+    line-height: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+    margin-top: -10px;
+}
+
+/*----------------------Content-----------------------*/
+.activity{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#activity_logo{
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 12em;
+    position: relative;
+    left: 20px;
+}
+
+.small_logo{
+    position: relative;
+    top: -30px;
+}
+.what{
+    color: #316DC3;
+}
+
+.doing{
+    color: #427900;
+}
+.content{
+    background-color:whitesmoke ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.sadqah, .welfare, .medical, .dastar, .plant, .education{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+    font-weight: bolder;
+    font-size: 15pt;
+    line-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 10px 15px 10px -10px black;
+   
+}
+
+.function{
+    cursor: pointer;
+}
+
+/*------------------------Mission-----------------------------*/
+
+.final_container{
+    padding: 20px;
+    height: 30PC;
+
+}
+
+.coming{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19pt;
+    font-weight: bold;
+    color: #316DC3;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    top: inherit !important;
+}
+
+.line{
+    position: relative;
+    top: -10px;
+    left: -8px;
+}
+#line2{
+    position: relative;
+    top: -54px;
+    background-color: grey;
+}
+
+.pro{
+    position: relative;
+    width: 250px;
+    height: 90px;
+    background-color: whitesmoke;
+    text-align: center;
+    color: #316DC3;
+    font-weight: bolder;
+    font-size: 12pt;
+    line-height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#event{
+    position: relative;
+    top: -30px !important;
+    width: 25%;
+ 
+}
+
+#mission{
+    width: 70%;
+    position: relative;
+    top: -200px !important;
+    
+}
+
+.perform{
+    cursor: pointer;
+    position: relative;
+    left: -25px;
+    top: -5px;
+}
+
+.marq{
+    height: 50px;
+    font-size: 10pt;
+    color: gray;
+}
+.detail{
+    color: #316DC3;
+    cursor: pointer;
+}
+
+/*------------------------IMAGES-----------------------------*/
+
+.img{
+    color: #316DC3 ;
+}
+
+.gallery{
+    color: #427900;
+    
+}
+
+.images{
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#gallery_logo{
+    text-align: center;
+    line-height: 12em;
+    position: relative;
+    left: 5px;
+    top: -20px;
+}
+
+.image_logo{
+    position: relative;
+    top: -30px;
+}
+.block_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1px;
+    cursor: pointer;
+    padding: 1px;
+}
+.focus_img:hover{
+    z-index: 1;
+    transform: scale(1.25);
+
+}
+
+/*------------------------BOTTOM-----------------------------*/
+
+.bottom{
+    background-color: rgba(7, 6, 6, 0.842);
+    color: white;
+    padding: 60px;
+    
+}
+.bottom_flex{
+    display: inline-block;   
+    padding: 20px;
+}
+.btm{
+    font-weight: bold;
+    position: relative;
+    top: -160px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;    
+}
+
+.contact{
+    width: 40px;
+    position: relative;
+    right: 150px;
+    top: -100px;
+    cursor: pointer;
+}
+.btm_line{
+    position: relative;
+    top: 40px;
+}
+#btm_line2{
+    background-color: grey;
+}
+#link{
+    position: relative;
+    top: 100px;
+}
+
+#contact_icon{
+    position: relative;
+    top: -60px;
+    left: 600px;
+}
+
+/*------------------------CLOSE COPYRIGHT----------------------------*/
+
+.lower_footer{
+    background-color: #316DC3;
+    width: 100%;
+}
